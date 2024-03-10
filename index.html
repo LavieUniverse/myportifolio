@@ -1,692 +1,247 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-	
-	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOREM IPSUM</title>
 
-	<title>LOREM IPSUM</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
 
-	<style>
+        padding: 0;
+        background: linear-gradient(to right, #3498db, #8e44ad);
 
-		body {
+        color: #fff;
+      }
 
-			font-family: 'Arial', sans-serif; margin: 0;
+      header {
+        background-color: rgba(0, 0, 0, 0.7);
 
-			padding: 0; background: linear-gradient(to right, #3498db, #8e44ad);
+        color: #fff;
 
-			color: #fff;
+        text-align: center;
 
-		}
+        padding: 20px 0;
 
+        position: relative;
+      }
 
+      h1 {
+        margin: 0;
 
-		header {
+        font-size: 32px;
+      }
 
-			background-color: rgba(0, 0, 0, 0.7);
+      .menu-icon {
+        display: none;
 
-			color: #fff;
+        font-size: 24px;
+      }
 
-			text-align: center;
+      nav {
+        text-align: center;
 
-			padding: 20px 0;
+        margin-bottom: 20px;
+      }
 
-			position: relative;
+      nav ul {
+        list-style: none;
 
-		}
+        padding: 0;
 
+        margin: 0;
+      }
 
+      nav ul li {
+        display: inline;
 
-		h1 {
+        margin-right: 20px;
+      }
 
-			margin: 0;
+      nav ul li a {
+        color: #fff;
 
-			font-size: 32px;
+        text-decoration: none;
 
-		}
+        font-weight: bold;
 
+        font-size: 16px;
+      }
 
+      .container {
+        max-width: 800px;
 
-		.menu-icon {
+        margin: 0 auto;
 
-			display: none;
+        padding: 20px;
 
-			font-size: 24px;
+        background-color: rgba(0, 0, 0, 0.5);
 
-		}
+        border-radius: 10px;
+      }
 
+      .social-icons {
+        position: absolute;
 
+        top: 50%;
+        right: 10px;
 
-		nav {
+        transform: translateY(-50%);
+      }
 
-			text-align: center;
+      .social-icons a {
+        color: #fff;
 
-			margin-bottom: 20px;
+        margin-left: 10px;
 
-		}
+        text-decoration: none;
 
+        font-size: 20px;
+      }
 
+      .social-icons a:hover {
+        color: #e74c3c;
+      }
 
-		nav ul {
+      .music-player {
+        text-align: center;
 
-			list-style: none;
+        margin-top: 20px;
+      }
 
-			padding: 0;
+      .music-player input[type="text"] {
+        padding: 10px;
 
-			margin: 0;
+        font-size: 16px;
 
-		}
+        border-radius: 5px;
 
+        border: 1px solid #ccc;
 
+        margin-right: 10px;
+      }
 
-		nav ul li {
+      .music-player button {
+        padding: 10px 20px;
 
-			display: inline;
+        font-size: 16px;
 
-			margin-right: 20px;
+        border: none;
 
-		}
+        border-radius: 5px;
 
+        background-color: #007bff;
 
+        color: #fff;
 
-		nav ul li a {
+        cursor: pointer;
 
-			color: #fff;
+        transition: background-color 0.3s, transform 0.2s;
+      }
 
-			text-decoration: none;
+      .music-player button:hover {
+        background-color: #0056b3;
 
-			font-weight: bold;
+        transform: translateY(-2px);
+      }
 
-			font-size: 16px;
+      footer {
+        text-align: center;
 
-		}
+        margin-top: 20px;
 
+        padding: 10px 0;
+      }
 
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
 
-		.container {
+  <body>
+    <header>
+      <div class="social-icons">
+        <!-- Os links podem ser substituidos pelos ícones ou imagens desejados -->
 
-			max-width: 800px;
+        <a href="#" target="_blank">&#xf09a;</a>
 
-			margin: 0 auto;
+        <!-- ícone FontAwesome para Facebook -->
 
-			padding: 20px;
+        <a href="#" target="_blank">&#xf099;</a>
 
-			background-color: rgba(0, 0, 0, 0.5);
+        <!-- ícone FontAwesome para Twitter -->
 
-			border-radius: 10px;
+        <a href="#" target="_blank">&#xf16d;</a>
+      </div>
 
-		}
+      <h1>Lorem Ipsum</h1>
 
+      <div class="menu-icon">&#9776;</div>
 
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
 
-		.social-icons {
+          <li><a href="#">More</a></li>
 
-			position: absolute;
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-			top: 50%; right: 10px; 
+    <div class="container">
+      <p>What is Lorem ipsum?</p>
 
-			transform: translateY(-50%); 
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </p>
 
-		} 
+      <div class="search-item">
+        <input type="text" id="search-item" placeholder="find..." />
 
+        <button id="search-button">Search</button>
+      </div>
 
+      <section>
+        <h2>Why do we use it?</h2>
 
-		.social-icons a { 
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text.
+        </p>
 
-			color: #fff; 
+        <p>
+          All the Lorem Ipsum generators on the Internet tend to repeat
+          predefined chunks as necessary, making this the first true generator
+          on the Internet. It uses a dictionary of over 200 Latin words,
+          combined with a handful of model sentence structures, to generate
+          Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is
+          therefore always free from repetition, injected humour, or
+          non-characteristic words etc.
+        </p>
+      </section>
 
-			margin-left: 10px; 
-
-			text-decoration: none; 
-
-			font-size: 20px; 
-
-		} 
-
-
-
-		.social-icons a:hover { 
-
-			color: #e74c3c;
-
-		 } 
-
-	
-
-		.music-player { 
-
-			text-align: center; 
-
-			margin-top: 20px; 
-
-		} 
-
-	
-
-		.music-player input[type="text"] { 
-
-			padding: 10px; 
-
-			font-size: 16px; 
-
-			border-radius: 5px; 
-
-			border: 1px solid #ccc; 
-
-			margin-right: 10px; 
-
-		} 
-
-
-
-		.music-player button { 
-
-			padding: 10px 20px; 
-
-			font-size: 16px;
-
-			border: none;
-
-			border-radius: 5px;
-
-			background-color: #007bff;
-
-			color: #fff; 
-
-			cursor: pointer;
-
-			transition: background-color 0.3s, transform 0.2s;
-
-		} 
-
-
-
-		.music-player button:hover { 
-
-			background-color: #0056b3;
-
-			transform: translateY(-2px);
-
-		}
-
-		
-
-		footer { 
-
-			text-align: center; 
-
-			margin-top: 20px; 
-
-			padding: 10px 0; 
-
-		} 
-
-		
-
-		footer p { 
-
-			margin: 0; 
-
-		} 
-
-
-
-	</style>
-
-</head>
-
-
-
-<body>
-
-	<header>
-
-		<div class="social-icons">
-
-			<!-- Os links podem ser substituidos pelos ícones ou imagens desejados -->
-
-			<a href="#" target="_blank">&#xf09a;</a>
-
-
-
-			<!-- ícone FontAwesome para Facebook -->
-
-			<a href="#" target="_blank">&#xf099;</a>
-
-
-
-			<!-- ícone FontAwesome para Twitter -->
-
-			<a href="#" target="_blank">&#xf16d;</a> 
-
-		<!//>
-
-
-
-		</div>
-
-			<h1>Lorem Ipsum</h1>
-
-			<div class="menu-icon">&#9776;</div>
-
-				<nav>
-
-					<ul>
-
-					<li><a href="#">Home</a></li> 
-
-					<li><a href="#">More</a></li> 
-
-					<li><a href="#">Contact us</a></li> 
-
-					</ul>
-
-				</nav> 
-
-
-
-	</header>
-
-
-
-<div class="container"> 
-
-	<p>What is Lorem ipsum?</p>
-
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-
-
-	<div class="search-item">
-
-		<input type="text" id="search-item" placeholder="find..."> 
-
-		<button id="search-button">Search</button>
-
-	</div>
-
-
-
-	<section>
-
-		<h2>Why do we use it?</h2>
-
-		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-
-		<p> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-
-
-
-	</section>
-
-	
-
-	<a href="https://www.w3.org" class="link-w3c">Official W3C Website</a> 
-
-</div>
-
-
-
-<footer> 
-
-	<p>Lavínia Sampaio</p>
-
-
-
-</footer> 
-
-
-
-</body> </html>
-
-
-
-<!DOCTYPE html>
-
-<html lang="pt-br">
-	git remote add origin [https://github.com/LavieUniverse/myportifolio.git]
-<head>
-
-	<meta charset="UTF-8">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>LOREM IPSUM</title>
-
-	<style>
-
-		body {
-
-			font-family: 'Arial', sans-serif; margin: 0;
-
-			padding: 0; background: linear-gradient(to right, #3498db, #8e44ad);
-
-			color: #fff;
-
-		}
-
-
-
-		header {
-
-			background-color: rgba(0, 0, 0, 0.7);
-
-			color: #fff;
-
-			text-align: center;
-
-			padding: 20px 0;
-
-			position: relative;
-
-		}
-
-
-
-		h1 {
-
-			margin: 0;
-
-			font-size: 32px;
-
-		}
-
-
-
-		.menu-icon {
-
-			display: none;
-
-			font-size: 24px;
-
-		}
-
-
-
-		nav {
-
-			text-align: center;
-
-			margin-bottom: 20px;
-
-		}
-
-
-
-		nav ul {
-
-			list-style: none;
-
-			padding: 0;
-
-			margin: 0;
-
-		}
-
-
-
-		nav ul li {
-
-			display: inline;
-
-			margin-right: 20px;
-
-		}
-
-
-
-		nav ul li a {
-
-			color: #fff;
-
-			text-decoration: none;
-
-			font-weight: bold;
-
-			font-size: 16px;
-
-		}
-
-
-
-		.container {
-
-			max-width: 800px;
-
-			margin: 0 auto;
-
-			padding: 20px;
-
-			background-color: rgba(0, 0, 0, 0.5);
-
-			border-radius: 10px;
-
-		}
-
-
-
-		.social-icons {
-
-			position: absolute;
-
-			top: 50%; right: 10px; 
-
-			transform: translateY(-50%); 
-
-		} 
-
-
-
-		.social-icons a { 
-
-			color: #fff; 
-
-			margin-left: 10px; 
-
-			text-decoration: none; 
-
-			font-size: 20px; 
-
-		} 
-
-
-
-		.social-icons a:hover { 
-
-			color: #e74c3c;
-
-		 } 
-
-	
-
-		.music-player { 
-
-			text-align: center; 
-
-			margin-top: 20px; 
-
-		} 
-
-	
-
-		.music-player input[type="text"] { 
-
-			padding: 10px; 
-
-			font-size: 16px; 
-
-			border-radius: 5px; 
-
-			border: 1px solid #ccc; 
-
-			margin-right: 10px; 
-
-		} 
-
-
-
-		.music-player button { 
-
-			padding: 10px 20px; 
-
-			font-size: 16px;
-
-			border: none;
-
-			border-radius: 5px;
-
-			background-color: #007bff;
-
-			color: #fff; 
-
-			cursor: pointer;
-
-			transition: background-color 0.3s, transform 0.2s;
-
-		} 
-
-
-
-		.music-player button:hover { 
-
-			background-color: #0056b3;
-
-			transform: translateY(-2px);
-
-		}
-
-		
-
-		footer { 
-
-			text-align: center; 
-
-			margin-top: 20px; 
-
-			padding: 10px 0; 
-
-		} 
-
-		
-
-		footer p { 
-
-			margin: 0; 
-
-		} 
-
-
-
-	</style>
-
-</head>
-
-
-
-<body>
-
-	<header>
-
-		<div class="social-icons">
-
-			<!-- Os links podem ser substituidos pelos ícones ou imagens desejados -->
-
-			<a href="#" target="_blank">&#xf09a;</a>
-
-
-
-			<!-- ícone FontAwesome para Facebook -->
-
-			<a href="#" target="_blank">&#xf099;</a>
-
-
-
-			<!-- ícone FontAwesome para Twitter -->
-
-			<a href="#" target="_blank">&#xf16d;</a> 
-
-		<!//>
-
-
-
-		</div>
-
-			<h1>Lorem Ipsum</h1>
-
-			<div class="menu-icon">&#9776;</div>
-
-				<nav>
-
-					<ul>
-
-					<li><a href="#">Home</a></li> 
-
-					<li><a href="#">More</a></li> 
-
-					<li><a href="#">Contact us</a></li> 
-
-					</ul>
-
-				</nav> 
-
-
-
-	</header>
-
-
-
-<div class="container"> 
-
-	<p>What is Lorem ipsum?</p>
-
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-
-
-	<div class="search-item">
-
-		<input type="text" id="search-item" placeholder="find..."> 
-
-		<button id="search-button">Search</button>
-
-	</div>
-
-
-
-	<section>
-
-		<h2>Why do we use it?</h2>
-
-		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-
-		<p> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-
-
-
-	</section>
-
-	
-
-	<a href="https://www.w3.org" class="link-w3c">Official W3C Website</a> 
-
-</div>
-
-
-
-<footer> 
-
-	<p>Lavínia Sampaio</p>
-
-
-
-</footer> 
-
-
-
-</body> </html>
-
-
-
+      <a href="https://www.w3.org" class="link-w3c">Official W3C Website</a>
+    </div>
+    <footer>
+      <p>Lavínia Sampaio</p>
+    </footer>
+  </body>
+</html>
